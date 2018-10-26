@@ -1,0 +1,30 @@
+{
+  "name": "temper-for-max",
+  "version": "0.0.1",
+  "description": "A NPM package for working with historic temperaments in the visual programming language Max",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreypierce/temper-for-max.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "Max 8",
+    "javascript",
+    "audio",
+    "tuning",
+    "temperament",
+    "frequency",
+    "midi"
+  ],
+  "author": "Jeffrey Pierce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffreypierce/temper-for-max/issues"
+  },
+  "homepage": "https://github.com/jeffreypierce/temper-for-max#readme"
+}
