@@ -1,0 +1,14 @@
+anguage: node_js
+node_js:
+- node
+before_deploy:
+- npm run build
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: jeffrey@jeffreypierce.net
+  api_key:
+    secure: QQMdu7r10+Om+1SIQ0hEHx89Cc3z8zEgGnReDr8NLpFqWcbE31rcYfvCVrVowZZ7vWFw8d4oxL96d9Xb2KczEqUb3FDncWGO1hn538syaZ0yjcamhnTTY0boZ3lswpB3mbE+usqnf5BCCh/vn6dhVKkJ0ij5D+J7wF5wexqzeQSSO8ndLgccB3odnodqTJ4lKeGBiShYVDS9wwV0VYmRVqEr7zvZIAWgsRBnDJDWwQ/XQEZp440bSsapfUzhrmICpJw8uaMweS36M1HtiQRqbCBIZiJ8geikVAW2HFP7/ubfU8oSnNE/ficHF/gqATD4qF51TNYKM/IxZ9379Ju5OXtMPx0SksUzJnNyuwoSTRRohcKOWAyhPsd7T2O9N8ANW3z9KAa2FfyRDhGpyQH2sUX4VZYY5VAsb89yBngf43LIIqqj2WqgxCt2toAcuxdYHqM8yFUrr8eo5hx3ciS95jEAvEbXDQa4NxCH1ScDnYM6FLus5f08dJGOwkko0njtXEXRzD5/CG3jG61M8YZOxg+/iNG9IOO++iwvKnlCsNkJgDXvQazA1HqDJt5sdoIQKH/wNRyeA4U+KkWheHR2oXtX2FMI4SKIkMg89Jc84rOWeMa/k/7nuAApCZkuqiQFJo9/kVAn9RYxIl/PFxPS0qTwRIHqw/9ZP1jp590OIsc=
+  on:
+    tags: true
+    repo: jeffreypierce/temper-for-max
